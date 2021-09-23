@@ -29,6 +29,6 @@ public class TG6Test {
         assertEquals(true, sut.emprestimo(900, true, true));
         assertEquals(true, sut.emprestimo(0, true, false));
         assertEquals(true, sut.emprestimo(-43.2, false, true));
-        assertEquals(false, sut.emprestimo(1001, false, false));
+        assertEquals(false, sut.emprestimo(998, false, false));
     }
 }
